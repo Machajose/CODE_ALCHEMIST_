@@ -25,7 +25,7 @@ From clean, modern UI to dreams of revolutionizing the Blockchain space in Afric
 
 ## 🔗 Live Demo
 
-[View Portfolio Live](https://your-live-link-goes-here.com)
+[View Portfolio Live](https://github.com/Machajose/CODE_ALCHEMIST_)
 
 ## 🚀 Project Goals
 
