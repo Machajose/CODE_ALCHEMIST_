@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hackathon Portfolio">
+    <title>My Hackathon Portfolio</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Neon theme configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neonBlue: '#00f7ff',
+                        neonPink: '#ff00c8',
+                        darkBg: '#0a0f1b',
+                        lightText: '#f0f0f0',
+                    },
+                    }
+                }
+            }
+        
+    </script>
+    </head>
+
+    <body class="bg-darkBg text-lightText font-sans scroll-smooth">
+        <!-- Navbar -->
+         <header class="fixed top=-0 left-0 w-full bg-darkBg z-50 shadow-lg">
+            <nav class="flex justify-between item-center px-6 py-4 text neonBlue">
+                <h1 class="text-2xl font-bold tracking-widest">PORTFOLIO</h1>
+                <ul class="flex gap-4 text-sm font-semibold uppercase">
+                    <li><a href="#about" class="hover:text-neonPink transition">About</a></li>
+                    <li><a href="#languages" class="hover:text neonPink transition">Languages</a></li>
+                    <li><a href="#education" class="hover:text-neonPink transition">Edication</a></li>
+                    <li><a href="#interests" class="hover:text-neonPink transition">Interests</a></li>
+                    <li><a href="#projects" class="hover:text-neonPink transition">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-neonPink transition">Contact</a></li>
+                    </ul>
+                    </nav>
+                    </header>
+
+                    <!-- Hero -->
+                     <section class="relative h-screen flex items-center justify-center text-center px-4" id="home">
+                        
+                    <!-- Background Image -->
+                           <img src="MAX00204.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-20">
+  
+                    <!-- Overlay Text -->
+                      <div class="relative z-10">
+    
+                            <h2 class="text-neonBlue text-4xl md:text-6xl font-bold mb-4 animate-pulse">
+                                Hello, I'm Joseph
+                            </h2>
+                            <p class="text-lightText text-xl md:text-2xl max-w-xl mx-auto leading-relaxed text-justify">
+                                Welcome to The Code Alchemist: oh yes!My own portfolio has a name!A digital space where innovation and design are counterparts. Built to impress. Built just for you! Built from the heart. Whether you wanna build interfaces or write logic that works- I aim to make people have digital experiences that are effortless and heartwariming.I believe that hackathons are not just competitions but places of growth , push limits; places code and creativity are put too the text. And yes;this is my playground!
+                            </p>
+                        </div>
+                     </section>
+
+                     <!-- About Section -->
+                      <section id="about" class="py-16 px-6 md:px-12 bg-darakBg">
+                        <h2 class="text-3xl text-neonPink font-bold mb-6 brder-b border-neonPink inline-block">About Me</h2>
+                        <p class="text-lg leading-relaxed max-w-3xl">
+                            Passion is my middle name; and so it is when it comes to coding. I love all sorts of languages; as a musician I understand that languages are meant to communicate effectively and just as music is sweet digital experiences too should be non-flawed,written in logic. Like melodies claen code flows-expressive and intentional. Its not just about the code; there should be harmony in the code. Symphony from fromtend to backend. Whether is just writing logic or simple interfaces, I code with rythm, reason and souls.
+                        </p>
+                      </section>
+
+                      <!-- Programming Languages -->
+                       <section id="languages" class="py-16 px-6 md:px-12 bg-darkBg">
+                        <h2 class="text-3xl text-nenBlue font-bold mb-6 border-b border-neonBlue inline-block">Programming Languages</h2>
+                        <p class="text-lg leading-relaxed max-w-3xl">
+                            I have to admit that I am new to this world as one who is interested in the vast world of Softaware engineering. Multiple languages but all telling the same story; I ahve so far used HTML5 and CSS to create recipe websites and Travel agency pages. The pages were superb showcasing order, flow and enthusiasm;I am a builder at heart and so I know true legacy is beyond code where you touch people's hearts with flawless digital experiences. Here are the languages I have learnt so far:
+                        </p>
+                        <ul class="grid grid-cold-2 md:grid-cols-4 gap-4 text-lg">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Python</li>
+                        </ul>
+                       </section>
+                       
+                       <!-- Education -->
+                        <section id="education" class="py-16 px-6 md:px-12 bg-darkBg">
+                            <h2 class="text-3xl text-neonPink font-bold mb-6 border-b border-neonPink inline-block">Education</h2>
+                            <p class="text-lg keading-relaxed max-w-3xl">
+                                I am currently pursuing a degree in Medical Laboratory Sciences-a field rooted in precision, doscovery and impacts.In my journey I built a keen interest for coding which I want to use to my advantage to build revolutional digital architecture for the Medical Industry. My curiosity further extends to the World of Web 3 and Blockchain where I see opportunity to revolutionalize medical industry stores, shares and secure data. With each line of code my vision becomes realler where I will bridge the gap between healthcare and technology; not just diagnose and treat but also code and transform.
+
+                            </p>
+                             <!-- CV Button -->
+    <a href="cv.pdf" target="_blank" class="inline-block mt-4 px-6 py-3 border border-neonBlue text-neonBlue rounded-xl hover:bg-neonBlue hover:text-black transition-colors duration-300">
+      📄 View My CV
+                        </section>
+
+                        <!-- Interests -->
+                         <section id="interests" class="py-16 px-6 md:px-12 bg-darkBg">
+                            <h2 class="text-3xl text-neonBlue font-bold mb-6 border-b border-neonBlue inline-block">Interests</h2>
+                            <ul class="list-disc list-inside text-lg max-w-2xl">
+                                <li>Web3 and Blockchain innovation</li>
+                                <li>Open source contributions</li>
+                                <li>Hackathons and collaorative coding</li>
+                                <li>Growing peoples' skills in whatever way I can</li>
+                            </ul>
+                         </section>
+
+                         <!-- Projects -->
+                          <section id="projects" class="py-16 px-6 md:px-12 bg-darkBg">
+                            <h2 class="text-3xl text-neonPink font-bold mb-6 border-b border-neonPink inline-block">Projects</h2>
+                            <p class="text-lg leading-relaxed max-w-3xl mb-4">
+                                Here are some of the projects I have worked on during hackathons and personal endeavors:
+                            </p>
+                        <!-- Recipe Project Card -->
+                       <div class="bg-gray-900 border border-neonBlue rounded-xl p-6 shadow-lg hover:shadow-neonBlue transition-shadow duration-300 mb-6">
+                          <h3 class="text-neonBlue text-2xl font-semibold mb-2">🍽️ Recipe Page</h3>
+                             <p class="text-lightText mb-4">
+                                A modern recipe interface built with HTML & CSS — a clean, tasty UI with code as the main ingredient.
+                                  </p>
+                         <a href="HTML- Recipe.txt" target="_blank" class="text-neonBlue underline hover:text-white transition-colors">
+                              🔗 View Project
+                             </a>
+                                  </div>
+
+<!-- Travel Agency Project Card -->
+<div class="bg-gray-900 border border-neonBlue rounded-xl p-6 shadow-lg hover:shadow-neonBlue transition-shadow duration-300 mb-6">
+  <h3 class="text-neonBlue text-2xl font-semibold mb-2">🌍 Travel Agency Page</h3>
+  <p class="text-lightText mb-4">
+    A sleek travel agency landing page crafted with HTML & CSS — smooth layout, intuitive design, and ready to take off.
+  </p>
+  <a href="https://www.freecodecamp.org/learn/full-stack-developer/lab-travel-agency-page/build-a-travel-agency-page" target="_blank" class="text-neonBlue underline hover:text-white transition-colors">
+    🔗 View Project
+  </a>
+</div>
+   
+
+<!-- Development Journey Section -->
+<section id="journey" class="py-16 bg-gray-950 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-neonBlue text-3xl md:text-4xl font-bold mb-6">🚀 My Development Journey</h2>
+    <p class="text-lightText text-lg md:text-xl leading-relaxed">
+      Every coder starts somewhere — and here's my spark. <br class="hidden md:block">
+      I've laid my foundation with <span class="text-neonBlue font-semibold">HTML</span> and <span class="text-neonBlue font-semibold">CSS</span>, crafting sleek pages and building visual experiences line by line.
+      <br><br>
+      But this is just the beginning. My mission? To bring the power of code into the heartbeat of Africa — by revolutionizing how the <span class="text-neonBlue font-semibold">Blockchain industry</span> thrives and connects across the continent.
+      <br><br>
+      I'm not just learning to build websites — I'm preparing to build impact.
+    </p>
+  </div>
+</section>
+
+
+       
+
+
+                       <!-- Contact -->
+                         <section id="contact" class="py-16 px-6 md:px-12 bg-darkBg">
+                              <h2 class="text-3xl text-neonBlue font bold mb-6 border-b border-neonBlue inline-block"></h2>
+                            <p class="text-lg mb-4">Feel free to connect with me:</p>
+                            <ul class="space-y-2">
+                                <li>Email: <a href="mailto:mercifully608@gmail.com" class="text-neonPink hover:underline">mercifully608@gmail.com</a></li>
+                                <li>Github: <a href="https://github.com/Machajose" class="text-neonPink hover:underline">@Machajose</a></li>
+                                <li>Twitter: <a href="https://x.com/Jose84051868927" class="text-neonPink hover:underline">@Jose</a></li>
+
+                            </ul>
+                          </section>
+
+                          <!-- Footer -->
+                           <footer class="py-4 text-center text-sm bg-[#0a0f1b] border-t border-neonBlue">
+                            <p class="text-lightText">© 2025 Joseph Macharia. Built with ❤️ and no libraries.</p>
+                           </footer>
+                           </body>
+                           </html>
+            </nav>
+
+    
+    </body>
+</html>

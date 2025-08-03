@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Kenyan Pilau</title>
+   <meta charset="UTF-8">
+   </head>
+
+   <body>
+     <h1>Kenyan Pilau(Spiced Rice with meat)</h1>
+       <p>Kenyan pilau is a loved traditional dish mainly for it tender meat and aromatic spices often served in family gatherings and occasions. The dish is typically made of rice, beef and a blend of spices.</p>
+       <h2>Ingredients</h2>
+       <ul>
+         <li>500g beef cut into cubes</li>
+         <li>2 cups long grain rice</li>
+         <li>4 cups of beef stock</li>
+         <li>2 large onions sliced</li>
+         <li>3 cloves of garlic, minced</li>
+         <li>1 tea spoon of ginger, minced</li>
+         <li>2 tea spoons of pilau masala</li>
+         <li>2 tomatoes, chopped</li>
+         <li>2 potatoes, peeled and cubed</li>
+         <li>3 table spoons of vegetable oil</li>
+         <li>salt to taste</li>
+         <li>fresh coriander for garnish</li>
+         </ul>
+         <h2>Instructions</h2>
+         <ol>
+          <li>Prepare the meat: In a sufuria, boil the meat with a little salt, garlic and ginger until tender. Set aside the stock.</li>
+          <li>Fry the onions: In another sufuria, heat the oil and fry onions on medium heat until deeply browned-this gives pilau its rich color.</li>
+          <li>Add spices: Stir in pilau masala, garlic, and ginger. Fry for 1-2 minutes until aromatic.</li>
+          <li>Add tomatoes: Toss in chopped tomatoes and cook until they soften.</li>
+          <li>Add meat and potatoes:Stir in the boiled meat and potatoes(if using).Cook for 3 minutes.</li>
+          <li>Add rice: Pour in beef stock. Add salt to taste.</li>
+          <li>Simmer: Cover and cook on medium heat until the liquid reduces and the rice is cooked(about 20 minutes). Reduce to low heat for final 5 minutes.</li>
+          <li>Garnish and serve: Sprinkle with fresh coriander and serve hot with kachumbari.</li>
+          </ol>
+          <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Wonderful meal indeed!">
+</body>
+</html>
